@@ -16,17 +16,17 @@ const Navbar = () => {
             </ul>
             <ul>
                <li>
-                  <NavLink to="/profile" className="text-teal-500 text-md">
+                  <NavLink to="/profile" className="text-[#fff] text-md">
                      Profile
                   </NavLink>
                </li>
                <li>
-                  <NavLink to="/projects" className="text-teal-500 text-md">
+                  <NavLink to="/projects" className="text-[#fff] text-md">
                      Projects
                   </NavLink>
                </li>
                <li>
-                  <NavLink to="/volunteering" className="text-teal-500 text-md">
+                  <NavLink to="/volunteering" className="text-[#fff] text-md">
                      Volunteering
                   </NavLink>
                </li>

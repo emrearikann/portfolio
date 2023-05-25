@@ -1,7 +1,13 @@
 import React from "react";
+import Container from "../../Components/Container";
 
 const Volunteering = () => {
-   return <div>Volunteering</div>;
+   return (
+      <Container>
+         Volunteering and experiences <br />
+         Awards
+      </Container>
+   );
 };
 
 export default Volunteering;

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
    return (
-      <section className="absolute bottom-0  mb-0 p-8 w-full">
+      <section className="h-full flex flex-col bottom-0  mb-0 mt-8 pt-8 pb-4 w-full">
          <div className="flex justify-between items-center max-w-3xl w-full mx-auto">
             <ul className="flex justify-center items-center m-auto pb-3">
                <NavLink
@@ -11,24 +11,24 @@ const Footer = () => {
                   to="https://github.com/Bliadzee"
                   target="_blank"
                >
-                  <li className="list-none opacity-60 text-white text-sm">GitHub</li>
+                  <li className="list-none text-[#526D82] text-sm">GitHub</li>
                </NavLink>
                <NavLink
                   className="no-underline border-r border-r-white border-opacity-50 px-3"
                   to="https://www.linkedin.com/in/emrearikan/"
                   target="_blank"
                >
-                  <li className="list-none opacity-60 text-white text-sm">LinkedIn</li>
+                  <li className="list-none text-[#526D82] text-sm">LinkedIn</li>
                </NavLink>
                <NavLink
                   className="no-underline border-r border-r-white border-opacity-50 px-3"
                   to="https://twitter.com/emreeaarikan"
                   target="_blank"
                >
-                  <li className="list-none opacity-60 text-white text-sm">Twitter</li>
+                  <li className="list-none text-[#526D82] text-sm">Twitter</li>
                </NavLink>
                <NavLink className="no-underline px-3" to="https://www.instagram.com/emree.arikann/" target="_blank">
-                  <li className="list-none opacity-60 text-white text-sm">Instagram</li>
+                  <li className="list-none text-[#526D82] text-sm">Instagram</li>
                </NavLink>
             </ul>
          </div>
