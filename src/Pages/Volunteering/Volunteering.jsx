@@ -49,7 +49,7 @@ const Volunteering = () => {
          </article>
          <article className="mt-8 mb-24 text-center w-full shadow-none">
             <p className="text-center mb-12">
-               <b className="border-b p-2">MY VOLUNTEERINGS</b>
+               <b className="border-b p-2">MY AWARDS</b>
             </p>
             <article className="bg-[#11191F] shadow-none max-w-lg mx-auto">
                <p className="m-0 p-0 text-center">Techstars Startup Weekend</p>
