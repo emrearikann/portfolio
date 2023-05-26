@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { AiFillGithub } from "react-icons/ai";
 
 const Navbar = () => {
    return (
@@ -28,6 +29,11 @@ const Navbar = () => {
                <li>
                   <NavLink to="/volunteering" className="text-[#fff] text-md">
                      Volunteering
+                  </NavLink>
+               </li>
+               <li>
+                  <NavLink to="https://github.com/Bliadzee" target="_blank">
+                     <AiFillGithub className="text-2xl" />
                   </NavLink>
                </li>
             </ul>

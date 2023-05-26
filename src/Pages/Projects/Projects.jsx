@@ -8,7 +8,7 @@ const Projects = () => {
                <b className="border-b p-2">PROJECTS THAT I WORKED ON</b>
             </p>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Personal Website
                </summary>
                <p className="text-left px-4">
@@ -19,7 +19,7 @@ const Projects = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   SRET Studio - Landing Page
                </summary>
                <p className="text-left px-4">
@@ -28,7 +28,7 @@ const Projects = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Yavuzlar - Scraping Tool
                </summary>
                <p className="text-left px-4">
@@ -38,7 +38,7 @@ const Projects = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Yavuzlar - Fuzzing Tool
                </summary>
                <p className="text-left px-4">
@@ -48,7 +48,7 @@ const Projects = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Another Small Projects
                </summary>
                <p className="text-left px-4">

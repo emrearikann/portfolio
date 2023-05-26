@@ -2,9 +2,9 @@ import React from "react";
 
 const Container = ({ children }) => {
    return (
-      <body>
+      <div>
          <section className="container pt-0 flex justify-center items-center">{children}</section>
-      </body>
+      </div>
    );
 };
 

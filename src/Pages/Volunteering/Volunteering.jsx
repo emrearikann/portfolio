@@ -8,7 +8,7 @@ const Volunteering = () => {
                <b className="border-b p-2">MY VOLUNTEERINGS</b>
             </p>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Zplay Game Development Hackathon
                </summary>
                <p className="text-left px-4">
@@ -17,7 +17,7 @@ const Volunteering = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Yavuzlar Software Development Unit
                </summary>
                <p className="text-left px-4">
@@ -27,7 +27,7 @@ const Volunteering = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   ThreatMap Project
                </summary>
                <p className="text-left px-4">
@@ -38,7 +38,7 @@ const Volunteering = () => {
                </p>
             </details>
             <details className="max-w-xl mx-auto">
-               <summary role="button" class="secondary">
+               <summary role="button" className="secondary">
                   Karabuk University - IT Club Core Membership
                </summary>
                <p className="text-left px-4">
