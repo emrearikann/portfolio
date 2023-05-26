@@ -3,7 +3,7 @@ import React from "react";
 const Profile = () => {
    // return <Container>Who Am I - Skills - Certificates</Container>;
    return (
-      <main class="container">
+      <main className="container">
          <article className="my-0 text-center">
             <p className="text-center">
                <b className="border-b p-2">WHO AM I</b>
@@ -78,19 +78,3 @@ const Profile = () => {
 };
 
 export default Profile;
-
-// <article className="my-8 text-center w-full shadow-none">
-// <p className="text-center">
-//    <b className="border-b p-2">CERTIFICATES</b>
-// </p>
-// <p className="m-0 p-0 text-md">Basics of Programming</p>
-// <p className="m-0 mb-4 p-0 text-xs">METU / BilgeIs</p>
-// <p className="m-0 p-0 text-md">Basics of WEB Design</p>
-// <p className="m-0 mb-4 p-0 text-xs">METU / BilgeIs</p>
-// <p className="m-0 p-0 text-md">Javascript</p>
-// <p className="m-0 mb-4 p-0 text-xs">METU / BilgeIs</p>
-// <p className="m-0 p-0 text-md">Certified Ethical Hacker</p>
-// <p className="m-0 mb-4 p-0 text-xs">SiberVatan / Cyrops</p>
-// <p className="m-0 p-0 text-md">Penetration Test</p>
-// <p className="m-0 mb-4 p-0 text-xs">SiberVatan / BG-Tek</p>
-// </article>
