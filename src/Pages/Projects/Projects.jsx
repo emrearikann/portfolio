@@ -14,7 +14,7 @@ const Projects = () => {
                <p className="text-left px-4">
                   Since the beginning of the Covid-19 pandemic, I have been trying to improve myself in the fields of
                   WEB Development and WEB Security. As a result of the information I have learned, I have my own website
-                  among the first projects I have put out publicly.Dec. The site you are currently browsing was designed
+                  among the first projects I have put out publicly. The site you are currently browsing was designed
                   from scratch, written in ReactJS and powered by TailwindCSS and PicoCSS.
                </p>
             </details>
