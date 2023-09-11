@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
-import myImage from "./1f8f9d5c-327d-46b7-b2a7-b2209149013a.jpeg";
+import myImage from "./image.jpg";
 
 const buttonVariants = {
    hidden: { opacity: 0, y: 50 },
@@ -86,10 +86,11 @@ const Homepage = () => {
 
    return (
       <>
-         <div className=" custom-image w-full h-full flex flex-col items-center justify-center">
-            <img src={myImage} alt="No Place like 127.0.0.1" />
+         <div className="w-full h-full flex flex-col items-center justify-center">
+            <img src={myImage} alt="There's no place" />
             <p className="text-hoveredColor">↓</p>
          </div>
+
          <div className="flex flex-col justify-center items-center">
             <div className="mt-32">
                <h2 className="text-defaultTextColor text-4xl font-bold flex items-center justify-center">

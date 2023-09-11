@@ -40,9 +40,3 @@ body {
 ::-webkit-scrollbar-thumb {
    background-color: #666;
 }
-
-.custom-image {
-   background-image: url("./pages/1f8f9d5c-327d-46b7-b2a7-b2209149013a.jpeg");
-   width: 100%;
-   height: 100%;
-}
