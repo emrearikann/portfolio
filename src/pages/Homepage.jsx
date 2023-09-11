@@ -86,8 +86,8 @@ const Homepage = () => {
 
    return (
       <>
-         <div className="w-full h-full flex flex-col items-center justify-center">
-            <img src={myImage} alt="There's no place" />
+         <div className="w-full h-full flex flex-col items-center justify-center overflow-hidden">
+            <img src={myImage} alt="There's no place" className="object-contain w-auto h-screen" />
             <p className="text-hoveredColor">↓</p>
          </div>
 
