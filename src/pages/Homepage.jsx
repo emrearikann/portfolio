@@ -220,7 +220,7 @@ const Homepage = () => {
                <div className="flex items-center justify-center">
                   <span className="text-nonHoveredColor mb-4 hover:text-hoveredColor ease-linear duration-300 mx-1">
                      <a
-                        href="https://github.com/Bliadzee"
+                        href="https://github.com/emrearikann"
                         target="_blank"
                         className="text-4xl custom-cursor"
                         rel="noreferrer"
